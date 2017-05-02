@@ -45,7 +45,7 @@ class soleraUITests: XCTestCase {
         shopButton.tap()
         
         let collectionViewsQuery = app.collectionViews
-        let tomatoesImage = collectionViewsQuery.images["Tomatoes"]
+        let tomatoesImage = collectionViewsQuery.images["Peas"]
         tomatoesImage.tap()
         myBasketButton.tap()
         
